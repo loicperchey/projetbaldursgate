@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+	<Resource
+		name="jdbc/pool_cnx"
+		driverClassName="com.mysql.jdbc.Driver"
+		type="javax.sql.DataSource"
+		
+		url="jdbc:mysql://localhost:3306/baldursgatepersonneldwp"
+		username="root"
+		password=""
+		
+		maxActive="2"
+		maxWaitMillis="10000"
+	/>
+
+</context>
